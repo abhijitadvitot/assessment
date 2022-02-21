@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("div").animate(function() {
+        width:"100px";
+        height:"200px";
+        background:"blue";
+    });
+</script>
+<style>
+div {
+    display: block;
+    width: 370px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: red;
+    border: 2px solid green;
+}
+</style>
+</head>
+<body>
+	<!-- click on this div and a pop will appear -->
+	<div ondblclick="alert('dblclick event has been triggered')">Click
+		me to trigger dblclick event</div>
+</body>
+</html>

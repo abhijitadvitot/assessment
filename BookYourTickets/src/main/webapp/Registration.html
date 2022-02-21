@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to Booking</title>
+</head>
+<body  bgcolor ="Blue ">
+	<form>
+		<table>
+			<caption>Book Your Tickets</caption>
+			<tr>
+				<td>Your Name</td>
+				<td><input type="text" name="username"
+					placeholder="Enter User Name"></td>
+			</tr>
+			<tr>
+				<td>Phone</td>
+				<td><input type="tel" name="phone"
+					placeholder="Enter  your phn number"></td>
+			</tr>
+
+			<tr>
+				<td>No of ticket</td>
+				<td><input type="text" name="ticket"
+					placeholder="Enter the number of tickets"></td>
+			</tr>
+			
+			<tr>
+                <td style="color:red"  font-size:"100"   > Date of Booking</td>
+                <td><input type="date" name="dob" placeholder="Enter DOB"></td>
+            </tr>
+			
+			
+			
+			
+			
+			<tr>
+			<td>list of movies</td>
+				<td><input list="List  of movies" placeholder="Select movies">
+					<datalist id="list of movies">
+						<option value="Pusha">
+						<option value="sairat">
+						<option value="spiderman">
+					</datalist></td>
+
+			</tr>
+
+			<tr>
+				<td>Show Time</td>
+
+				<td><input list="Show timings" placeholder="Select timimg">
+					<datalist id="Show timings">
+						<option value="10 to 1">
+						<option value="1 to 3">
+						<option value="3 to 6">
+					</datalist></td>
+
+			</tr>
+
+
+			<tr>
+				<td><input type="submit" value="Submit"></td>
+				<td><input type="reset" value="clear form"></td>
+			</tr>
+		</table>
+	</form>
+
+
+
+</body>
+</html>
